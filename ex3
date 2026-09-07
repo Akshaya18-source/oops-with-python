@@ -1,0 +1,11 @@
+class rectangle:
+    def area(self,length,breadth):
+        print(length*breadth)
+    def perimeter(self,length,breadth):
+        print(2*(length*breadth))
+length=int(input())
+breadth=int(input())
+rec=rectangle()
+rec.area(length,breadth)
+rec.perimeter(length,breadth)
+        
