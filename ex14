@@ -1,0 +1,8 @@
+class circle:
+    def show():
+        print("circle")
+class square:
+    def show():
+        print("square")
+circle.show()
+square.show()
