@@ -1,0 +1,24 @@
+class bankaccount:
+    def __init__(self,money,cash):
+        self.money = money
+        self.cash = cash
+        self.balance= money
+    def deposit(self,money):
+        money=int(input())
+        self.balance=self.balance+money
+        print("deposited :",money)
+    def withdraw(self,cash):
+        cash= int(input())
+        self.balance=self.balance - cash
+        print("withdraw:",cash)
+    def displaybalance(self):
+        print("balance:",self.balance)
+Accholdername=input()
+Accnumber=int(input())
+balance=int(input())
+b=bankaccount(balance,0)
+b.deposit(balance)
+b.withdraw(0)
+b.displaybalance()
+
+    
